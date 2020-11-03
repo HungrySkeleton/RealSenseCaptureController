@@ -33,14 +33,11 @@ enum class direction
 
 int main() 
 {
-
-
     try 
     {
-        //Welcome Message
-        string version = "0.1.1";
-        print_separator();
-        welcome_message(version);
+        string version = "0.1.1"; // Version String 
+        print_separator(); // Just Prints a Line Separator
+        welcome_message(version); //Welcome Message
 
         rs2::pipeline pipe; //Create the pipeline
         rs2::config cfg; //Create a Configuration Scheme
